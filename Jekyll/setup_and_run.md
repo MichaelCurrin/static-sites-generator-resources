@@ -5,6 +5,25 @@ Follow the instructions in this guide to setup and run a Jekyll site locally. It
 
 For instructions on how to create your own site, see the [Jekyll](https://jekyllrb.com) or [Github Pages](https://pages.github.com/) documentation.
 
+
+**Table of Contents:**
+
+- [Overview](#Overview)
+- [Setup repo](#Setup-repo)
+- [A. Project without a Gemfile](#A-Project-without-a-Gemfile)
+    - [Installation](#Installation)
+        - [System dependencies](#System-dependencies)
+        - [Project packages](#Project-packages)
+    - [Run](#Run)
+- [B. Project with a Gemfile](#B-Project-with-a-Gemfile)
+    - [Installation](#Installation-1)
+        - [System dependencies](#System-dependencies-1)
+        - [Project packages](#Project-packages-1)
+            - [First time](#First-time)
+            - [Maintenance](#Maintenance)
+    - [Run](#Run-1)
+
+
 ## Overview
 
 This guide will help you do the following:
@@ -25,10 +44,10 @@ $ git clone https://github.com/<USERNAME>/<REPO>.git
 $ cd <REPO>
 ```
 
-The rest of this guide is setup into two sections, to handle a site either [with](#b-with-a-gemfile) or [without](#a-without-a-gemfile) a Gemfile.
+The rest of this guide is setup into two sections, to handle a site either [with](#b-project-with-a-gemfile) or [without](#a-project-without-a-gemfile) a Gemfile.
 
 
-## A. Without a Gemfile
+## A. Project without a Gemfile
 
 The approach is to setup and run a repo which does not use a Gemfile to specify Jekyll plugins.
 
@@ -69,7 +88,7 @@ If the `baseurl` is set in the config file such as for running on Github Pages u
 $ jekyll serve --baseurl ''
 ```
 
-## B. With a Gemfile
+## B. Project with a Gemfile
 
 The approach is to setup and run a repo which uses a Gemfile to specify Jekyll plugins.
 
