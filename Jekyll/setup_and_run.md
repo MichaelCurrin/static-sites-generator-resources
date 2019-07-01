@@ -1,5 +1,5 @@
-# Static Site - Setup and Run
-> Guide to setup and run a Jekyll static website from a Git repo.
+# Setup and Run
+> Guide to install and run a Jekyll static website using from a clone URL.
 
 Follow the instructions in this guide to setup and run a Jekyll site locally. It will use `ruby` to compile HTML and Markdown templates into HTML, avoiding duplication of code.
 
