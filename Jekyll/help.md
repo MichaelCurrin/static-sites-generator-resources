@@ -1,6 +1,7 @@
 # Jekyll Help
 > Useful links and tips which helped me learn about build static sites with Liquid and Jekyll
 
+
 ## Docs
 
 - [Jekyll cheatsheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/).
@@ -14,7 +15,7 @@
 - [Filters](https://help.shopify.com/en/themes/liquid/filters)
 
 
-### Offical Jekyll docs
+### Official Jekyll docs
 
 - [Home](https://jekyllrb.com)
 - [Plugins](https://jekyllrb.com/docs/plugins/)
@@ -39,7 +40,7 @@ See also the content on the Jekyll site's sidebar around pages, posts, front mat
 - [Github Pages Ruby Gem](https://github.com/github/pages-gem) - A simple Ruby Gem to bootstrap dependencies for setting up and maintaining a local Jekyll environment in sync with GitHub Pages.
 - [Minima theme](https://github.com/jekyll/minima)
 
-To see your installed files of a theme such as mimima, run the following:
+To see your installed files of a theme such as `mimima`, run the following:
 
 ```bash
 $ # View path

@@ -3,7 +3,7 @@
 
 Follow the instructions in this guide to setup and run a Jekyll site locally. It will use `ruby` to compile HTML and Markdown templates into HTML, avoiding duplication of code.
 
-For instructions on how to create your own site, see the [Jekyll](https://jekyllrb.com) or [Github Pages](https://pages.github.com/) documenation.
+For instructions on how to create your own site, see the [Jekyll](https://jekyllrb.com) or [Github Pages](https://pages.github.com/) documentation.
 
 ## Overview
 
@@ -30,14 +30,14 @@ The rest of this guide is setup into two sections, to handle a site either [with
 
 ## A. Without a Gemfile
 
-The approach is to setup and run a repo which doea not use a Gemfile to specify Jekyll plugins.
+The approach is to setup and run a repo which does not use a Gemfile to specify Jekyll plugins.
 
 ### Installation
 
 #### System dependencies
 
 1. Follow instructions under [Jekyll Guides](https://jekyllrb.com/docs/installation/#guides) for your OS to install or update `ruby`. This will make the `gem` command available.
-2. Install the Jekyll gem at the user level. By default, tihs will install to the `~/.gems` directory.
+2. Install the Jekyll gem at the user level. By default, this will install to the `~/.gems` directory.
     ```bash
     $ gem install --user-install jekyll
     ```
@@ -63,7 +63,7 @@ Build to the `_site` directory and start the web server with this command. Note 
 $ jekyll serve
 ```
 
-If the baseurl is set in the config file such as for running on Github Pages under a subpath, then you might want to override it as below.
+If the `baseurl` is set in the config file such as for running on Github Pages under a subpath, then you might want to override it as below.
 
 ```bash
 $ jekyll serve --baseurl ''
@@ -78,7 +78,7 @@ The approach is to setup and run a repo which uses a Gemfile to specify Jekyll p
 #### System dependencies
 
 1. Follow instructions under [Jekyll Guides](https://jekyllrb.com/docs/installation/#guides) for your OS to install or update `ruby`. This will make the `gem` command available.
-2. Install the Jekyll gem at the user level. By default, tihs will install to the `~/.gems` directory.
+2. Install the Jekyll gem at the user level. By default, this will install to the `~/.gems` directory.
     ```bash
     $ gem install --user-install bundler jekyll
     ```
@@ -110,7 +110,7 @@ That will create the following:
 - `.bundle/config` - Short bundle config file. This can be versioned if you like.
 - `vendor/bundle/` - A directory containing installed project gems. This directory should be added to your ignore file to avoid versioning it.
 
-Alteratively, you can override the default path with your own.
+Alternatively, you can override the default path with your own.
 
 ```bash
 $ bundle install --path <NEW_DIR_PATH>
@@ -145,7 +145,7 @@ $ bundle update <GEM_NAME>
 
 ### Run
 
-The jekyll commands here are same here as in the other section except they start with `bundle exec`.
+The Jekyll commands here are same here as in the other section except they start with `bundle exec`.
 
 Build to the `_site` directory and start the web server with this command. Note that `serve` can be replaced with `s`.
 
