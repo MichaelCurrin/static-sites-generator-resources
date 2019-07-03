@@ -1,4 +1,4 @@
 #!/bin/bash
-# Install packages for Hugo project, using npm.
+# Install node packages for Hugo project, using npm.
 
 npm install
