@@ -1,4 +1,4 @@
 #!/bin/bash
-# Start the Hugo server, provided npm package is configured to run it.
+# Build Hugo assets and start the server, using npm.
 
 npm start
