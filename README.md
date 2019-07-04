@@ -1,2 +1,2 @@
 # Static Site Generator Resources
-> Guides and scripts to aid with working with Jekyll
+> Install and usage instructions and helper scripts for with working with [Jekyll](http://jekyllrb.com/) and [Hugo](https://gohugo.io/)
