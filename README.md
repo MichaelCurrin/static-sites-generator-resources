@@ -6,17 +6,17 @@ This project is intended for users of Linux or Mac OS.
 
 ## Project contents
 
-- [Jekyll](Jekyll)
 - [Hugo](Hugo)
+- [Jekyll](Jekyll)
 
 ## External links
 
-- [Jekyll official site](http://jekyllrb.com/)
 - [Hugo offical site](https://gohugo.io/)
+- [Jekyll official site](http://jekyllrb.com/)
 
 ## Usage
 
-After cloning this repo or copying the raw content of a script, a script here can be executed from within any of your relevant project. 
+After cloning this repo or copying the raw content of a script, a script in this project can be executed from within another project.
 
 e.g.
 
@@ -29,3 +29,5 @@ $ ~/<PATH_TO_RESOURCES_PROJECT>/Jekyll/dev/serve.sh
 $ # Or using relative path..
 $ ../static-sites-generator-resources/Jekyll/dev/serve.sh
 ```
+
+TODO: Improve on this with a command setup or global aliases or bin scripts.
