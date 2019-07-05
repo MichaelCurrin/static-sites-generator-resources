@@ -30,4 +30,4 @@ $ # Or using relative path..
 $ ../static-sites-generator-resources/Jekyll/dev/serve.sh
 ```
 
-TODO: Improve on this with a command setup or global aliases or bin scripts.
+_TODO: Improve on this with a command setup or global aliases or bin scripts._
