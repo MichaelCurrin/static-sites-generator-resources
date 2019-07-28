@@ -22,6 +22,8 @@ For instructions on how to create your own site, see the [Jekyll](https://jekyll
             - [First time](#First-time)
             - [Maintenance](#Maintenance)
     - [Run](#Run-1)
+        - [Long commands](#Long-commands)
+        - [Short commands](#Long-commands)
 
 
 ## Overview
@@ -45,7 +47,6 @@ $ cd <REPO>
 ```
 
 The rest of this guide is setup into two sections, to handle a site either [with](#b-project-with-a-gemfile) or [without](#a-project-without-a-gemfile) a Gemfile.
-
 
 ## A. Project without a Gemfile
 
@@ -161,10 +162,11 @@ To update to the latest version of a gem (even more recent than in your Gemfile)
 $ bundle update <GEM_NAME>
 ```
 
-
 ### Run
 
-The Jekyll commands here are same here as in the other section except they start with `bundle exec`.
+### Long commands
+
+The Jekyll commands here start with `bundle exec`, unlike the section for running without Gems.
 
 Build to the `_site` directory and start the web server with this command. Note that `serve` can be replaced with `s`.
 
@@ -177,3 +179,10 @@ If the `baseurl` is set in the config file such as for running on Github Pages u
 ```bash
 $ bundle exec jekyll serve --baseurl ''
 ```
+
+#### Shortcut commands
+
+Rather than running the long commands above, you can use the scripts in the [dev](../dev] directory.
+
+- **bin** You can add the scripts to the `bin` directory in your project, or `~/bin` directory for use across projects.
+- **aliases** You can add the commands you want to your alias file.
