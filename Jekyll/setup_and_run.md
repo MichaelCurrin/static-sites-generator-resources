@@ -119,10 +119,10 @@ jekyll is /.../.gem/ruby/2.3.0/bin/jekyll
 
 How to install project-specific gems, as set in the Gemfile.
 
-By default, `bundle` will install gems in your gem directory (`~/.gems`). Rather ensure you isolate your gems environment for this project by using the deployment flag:
+By default, `bundle` will install gems in your gem directory (`~/.gems`). Rather ensure you isolate your gems environment for this project a custom location. Below is the one recommended by `bundle`.
 
 ```bash
-$ bundle install --deployment
+$ bundle install --path vendor/path
 ```
 
 That will create the following:
@@ -130,23 +130,25 @@ That will create the following:
 - `.bundle/config` - Short bundle config file. This can be versioned if you like.
 - `vendor/bundle/` - A directory containing installed project gems. This directory should be added to your ignore file to avoid versioning it.
 
-Alternatively, you can override the default path with your own.
-
-```bash
-$ bundle install --path <NEW_DIR_PATH>
-```
-
 
 ##### Maintenance
 
 You should now have `bundle` configured and all your project gems downloaded and installed. When you install from now on, `bundle` will know to look in the project directory.
+
+###### Install
+
+After the initial command run above with the path, only this needs to be run later. 
 
 ```bash
 $ cd <PATH_TO_REPO>
 $ bundle install
 ```
 
-That will install gems which have been added to the Gemfile and will upgrade any gems which have a version pinned to a higher version than the installed version. Note however that the install command is _conservative_, "refusing to update gems (or their dependencies) that you have not explicitly changed in the Gemfile", according to the [documentation](https://bundler.io/v2.0/guides/updating_gems.html),
+That will install gems which have been added to the Gemfile and will upgrade any gems which have a version pinned to a higher version than the installed version. 
+
+###### Upgrade
+
+Note however that the install command is _conservative_, "refusing to update gems (or their dependencies) that you have not explicitly changed in the Gemfile", according to the [documentation](https://bundler.io/v2.0/guides/updating_gems.html),
 
 To update gems and their dependencies to the _latest_ possible versions, use:
 
@@ -164,7 +166,7 @@ $ bundle update <GEM_NAME>
 
 ### Run
 
-### Long commands
+#### Long commands
 
 The Jekyll commands here start with `bundle exec`, unlike the section for running without Gems.
 
