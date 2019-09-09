@@ -1,5 +1,4 @@
 #!/bin/bash
-# Install gems locally.
-# Target directoy is bundle's default configured directory.
+# Install gems in project.
 
-bundle install --deployment
+bundle install --path vendor/bundle
