@@ -1,7 +1,11 @@
 # Build and Run Help
 > Tips for using the build and run commands.
 
-Note: If you are using the local _Jekyll_ installation through _bundle_, then commands in this document you have `bundle exec` prepended.
+Note: If you want to run local _Jekyll_ installation through _bundle_, then run the following instead throughout this.
+
+```bash
+bundle exec jekyll COMMAND
+```
 
 ## Serve
 
@@ -18,7 +22,7 @@ $ jekyll serve --no-watch
 
 #### Use with CMS
 
-Note howecer that if the _Jekyll Manager_ plugin is installed and in your Gemfile, then the `serve` log will tell you that auto regeneration is disabled. Therefore the site will only be rebuilt after edits through the admin view (or if you stop and start the server).
+Note however that if the _Jekyll Manager_ plugin is installed and in your Gemfile, then the `serve` log will tell you that auto regeneration is disabled. Therefore the site will only be rebuilt after edits through the admin view (or if you stop and start the server).
 
 If you _do_ want to enable auto regeneration, then disable the plugin by commenting it out the [Gemfile](/Gemfile) and restarting the server. Note that you do not need run an install command again so see changes.
 
