@@ -7,6 +7,7 @@
     - [Shopify's Liquid docs](#Shopifys-Liquid-docs)
     - [Official Jekyll docs](#Official-Jekyll-docs)
 - [Repos](#Repos)
+- [Resources](#Resources)
 
 
 ## Docs
@@ -59,3 +60,7 @@ $ open $(bundle show minima)
 $ # Open on Linux.
 $ open-xdg $(bundle show minima)
 ```
+
+## Resources
+
+- [Alligator.io - Jekyll posts](https://alligator.io/jekyll/)
