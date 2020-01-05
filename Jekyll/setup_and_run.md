@@ -122,7 +122,7 @@ How to install project-specific gems, as set in the Gemfile.
 By default, `bundle` will install gems in your gem directory (`~/.gems`). Rather ensure you isolate your gems environment for this project a custom location. Below is the one recommended by `bundle`.
 
 ```bash
-$ bundle install --path vendor/path
+$ bundle install --path vendor/bundle
 ```
 
 That will create the following:
