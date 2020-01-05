@@ -29,5 +29,3 @@ $ ~/<PATH_TO_RESOURCES_PROJECT>/Jekyll/dev/serve.sh
 $ # Or using relative path..
 $ ../static-sites-generator-resources/Jekyll/dev/serve.sh
 ```
-
-_TODO: Improve on this with a command setup or global aliases or bin scripts._
