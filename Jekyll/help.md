@@ -13,6 +13,7 @@
 ## Docs
 
 - [Jekyll cheatsheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/).
+- [Bundle install](https://bundler.io/man/bundle-install.1.html)
 
 
 ### Shopify's Liquid docs
