@@ -2,9 +2,10 @@
 
 When setting up a project for Netlify, values are configured. Rather than setting them in Netlify itself, I prefer to set use a config file.
 
-## Tutorials
+## Resources
 
-From the Netlify docs - [File-based configuration](https://docs.netlify.com/configure-builds/file-based-configuration/)
+- [File-based configuration](https://docs.netlify.com/configure-builds/file-based-configuration/) - from the Netlify docs.
+- [Common configurations](https://docs.netlify.com/configure-builds/common-configurations/) - from the Netlify docs. This helps with setting command and publish commands for Hugo, etc.
 
 ## Sample content
 
