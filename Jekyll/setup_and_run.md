@@ -91,19 +91,23 @@ $ jekyll serve --baseurl ''
 
 ## B. Project with a Gemfile
 
-The approach is to setup and run a repo which uses a Gemfile to specify Jekyll plugins.
+The approach is to setup and run a repo which uses a Gemfile to specify project dependencies.
 
 ### Installation
 
 #### System dependencies
 
-1. Follow instructions under [Jekyll Guides](https://jekyllrb.com/docs/installation/#guides) for your OS to install or update `ruby`. This will make the `gem` command available.
-2. Install the Jekyll gem at the user level. By default, this will install to the `~/.gems` directory.
+1. Install _Ruby_ so you can get the `ruby` and `gem` commands available. To do this, follow the instructions under [Jekyll Guides](https://jekyllrb.com/docs/installation/#guides) for your OS to install or update `ruby` (for macOS Catalina, see this [guide](https://github.com/MichaelCurrin/learn-to-code/blob/master/Scripting%20languages/Ruby/README.md#macos).
+2. Install the _Jekyll_ gem at the **user** level. By default, this will install to the `~/.gems` directory. Note, this step is not need for projects which in install Jekyll a project dependency.
     ```bash
-    $ gem install --user-install bundler jekyll
+    $ gem install --user-install jekyll
+    ```
+3. Install the _Bundler_ gem at the user level.
+    ```bash
+    $ gem install --user-install bundler
     ```
 
-You can run the gems from anywhere now.
+You can run the gems from anywhere now. For example:
 
 ```bash
 $ type jekyll
