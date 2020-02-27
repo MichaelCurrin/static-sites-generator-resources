@@ -48,6 +48,28 @@ $ jekyll serve -l
 Note that this flag is not compatible with the _Jekyll Manager_ plugin as it causes a thread lock error.
 
 
+### Serve on dev server
+
+Flags to use with the `serve` command when serving on a development server (based on _Foresty.io_ site settings).
+
+Set port and host:
+
+```sh
+--port 8080 --host 0.0.0.0
+```
+
+Preview posts which would not be publically visible yet if deployed on a Prod env.
+
+```bash
+$ --drafts --unpublished --future
+```
+
+Build to a different output directory:
+
+```sh
+-d DIR_NAME
+```
+
 ## Environments
 
 _Jekyll_ defaults to building a development site. If you build a production site, some things will behave differently, such as Google Analytics snippet you only want on production.
