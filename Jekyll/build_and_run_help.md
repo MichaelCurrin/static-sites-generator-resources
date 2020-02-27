@@ -11,7 +11,7 @@ If you want `serve` or `build` command, _Jekyll_ will build a site to an unversi
 
 For local development, it is often convenient to run the `serve` command, which also start webserver so you can view the site in the browser.
 
-http://localhost:4000
+- http://localhost:4000
 
 ## Serve
 
