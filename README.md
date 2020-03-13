@@ -9,11 +9,6 @@ This project is intended for users of Linux or Mac OS.
 - [Hugo](Hugo)
 - [Jekyll](Jekyll)
 
-## External links
-
-- [Hugo offical site](https://gohugo.io/)
-- [Jekyll official site](http://jekyllrb.com/)
-
 ## Usage
 
 After cloning this repo or copying the raw content of a script, a script in this project can be executed from within another project.
