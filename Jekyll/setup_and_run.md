@@ -9,6 +9,7 @@ For instructions on how to create your own site, see the [Jekyll](https://jekyll
 **Table of Contents:**
 
 - [Overview](#Overview)
+- [Requirements](#Requirements)
 - [Setup repo](#Setup-repo)
 - [A. Project without a Gemfile](#A-Project-without-a-Gemfile)
     - [Installation](#Installation)
@@ -30,11 +31,20 @@ For instructions on how to create your own site, see the [Jekyll](https://jekyll
 
 This guide will help you do the following:
 
-1. Clone a repo
-2. Install `ruby`
-3. Install _Jekyll_
-4. Install `bundler` and install plugins (only if the repo uses plugins)
-5. Build and serve the static site assets locally
+1. Clone a repo.
+2. Install Ruby.
+3. Install _Jekyll_.
+4. Install _Bundler_ and use it to install plugins. This is step is only needed if a repo has project dependencies.
+5. Build and serve the static site assets locally.
+
+
+## Requirements
+
+Name | Description
+---  | ---
+[Ruby](https://www.ruby-lang.org/en/) | Used to install gems.
+[Jekyll](https://jekyllrb.com/) | Builds static site.
+[Bundler](https://bundler.io/) | Used to install project-scoped gems from [Gemfile](/Gemfile).
 
 
 ## Setup repo
