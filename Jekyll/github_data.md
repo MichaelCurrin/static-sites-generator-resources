@@ -21,3 +21,5 @@ If this default value causes an issue such as on Netlify, just set it to an empt
 ```yml
 baseurl: ""
 ```
+
+For more details on the values, see this [doc](https://github.com/jekyll/github-metadata/blob/master/docs/site.github.md).
