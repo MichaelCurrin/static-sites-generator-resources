@@ -1,15 +1,15 @@
-# How to upgade Jekyll
+# How to upgrade Jekyll
 
 [Upgrading from 3.x to 4.x](https://jekyllrb.com/docs/upgrading/3-to-4/) tutorial on the Jekyll docs.
 
 One way to use the latest Jekyll is to specify in the `Gemfile` for the project.
 
-```
+```ruby
 gem 'jekyll', "~> 4.0.0"
 ```
 
 ```sh
-$ bundle install 
+$ bundle install
 ```
 
 When installing that, you'll see this message:
