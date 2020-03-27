@@ -8,23 +8,25 @@ For instructions on how to create your own site, see the [Jekyll](https://jekyll
 
 **Table of Contents:**
 
-- [Overview](#Overview)
-- [Requirements](#Requirements)
-- [Setup repo](#Setup-repo)
-- [A. Project without a Gemfile](#A-Project-without-a-Gemfile)
-    - [Installation](#Installation)
-        - [System dependencies](#System-dependencies)
-        - [Project packages](#Project-packages)
-    - [Run](#Run)
-- [B. Project with a Gemfile](#B-Project-with-a-Gemfile)
-    - [Installation](#Installation-1)
-        - [System dependencies](#System-dependencies-1)
-        - [Project packages](#Project-packages-1)
-            - [First time](#First-time)
-            - [Maintenance](#Maintenance)
-    - [Run](#Run-1)
-        - [Long commands](#Long-commands)
-        - [Short commands](#Long-commands)
+- [Overview](#overview)
+- [Requirements](#requirements)
+- [Setup repo](#setup-repo)
+- [A. Project without a Gemfile](#a-project-without-a-gemfile)
+    - [Installation](#installation)
+        - [System dependencies](#system-dependencies)
+        - [Project packages](#project-packages)
+    - [Run](#run)
+- [B. Project with a Gemfile](#b-project-with-a-gemfile)
+    - [Installation](#installation-1)
+        - [System dependencies](#system-dependencies-1)
+        - [Project packages](#project-packages-1)
+            - [First time](#first-time)
+            - [Maintenance](#maintenance)
+                - [Install](#install)
+                - [Upgrade](#upgrade)
+    - [Run](#run-1)
+        - [Long commands](#long-commands)
+        - [Shortcut commands](#shortcut-commands)
 
 
 ## Overview
@@ -40,11 +42,11 @@ This guide will help you do the following:
 
 ## Requirements
 
-Name | Description
----  | ---
-[Ruby](https://www.ruby-lang.org/en/) | Used to install gems.
-[Jekyll](https://jekyllrb.com/) | Builds static site.
-[Bundler](https://bundler.io/) | Used to install project-scoped gems from [Gemfile](/Gemfile).
+| Name                                  | Description                                             |
+| ------------------------------------- | ------------------------------------------------------- |
+| [Ruby](https://www.ruby-lang.org/en/) | Used to install gems.                                   |
+| [Jekyll](https://jekyllrb.com/)       | Builds static site.                                     |
+| [Bundler](https://bundler.io/)        | Used to install project-scoped gems from the _Gemfile_. |
 
 
 ## Setup repo
@@ -107,9 +109,9 @@ The approach is to setup and run a repo which uses a Gemfile to specify project 
 
 #### System dependencies
 
-1. Install **Ruby** so you can get the `ruby` and `gem` commands available. 
+1. Install **Ruby** so you can get the `ruby` and `gem` commands available.
     - To do this, follow the instructions under [Jekyll Guides](https://jekyllrb.com/docs/installation/#guides) for your OS to install or update `ruby` (for macOS Catalina, see this [guide](https://github.com/MichaelCurrin/learn-to-code/blob/master/Scripting%20languages/Ruby/README.md#macos)).
-2. Install the **Jekyll** gem at the _user_ level. 
+2. Install the **Jekyll** gem at the _user_ level.
     - By default, this will install to the `~/.gems` directory. Note, this step is not needed for projects which install Jekyll as a project dependency.
     - Command:
         ```bash
@@ -126,6 +128,7 @@ You can run the gems from anywhere now. For example:
 ```bash
 $ type jekyll
 jekyll is hashed (/.../.gem/ruby/2.3.0/bin/jekyll)
+
 $ type bundler
 jekyll is /.../.gem/ruby/2.3.0/bin/jekyll
 ```
@@ -155,14 +158,14 @@ You should now have `bundle` configured and all your project gems downloaded and
 
 ###### Install
 
-After the initial command run above with the path, only this needs to be run later. 
+After the initial command run above with the path, only this needs to be run later.
 
 ```bash
 $ cd <PATH_TO_REPO>
 $ bundle install
 ```
 
-That will install gems which have been added to the Gemfile and will upgrade any gems which have a version pinned to a higher version than the installed version. 
+That will install gems which have been added to the Gemfile and will upgrade any gems which have a version pinned to a higher version than the installed version.
 
 ###### Upgrade
 
