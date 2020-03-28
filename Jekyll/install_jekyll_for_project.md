@@ -1,8 +1,20 @@
 # Install Jekyll for a project
 
-See the [Upgrading from 3.x to 4.x](https://jekyllrb.com/docs/upgrading/3-to-4/) tutorial on the Jekyll docs.
+## Install Bundler
 
-Specify the version in the `Gemfile` of the project. For example:
+Ensure you have [Bundler](https://bundler.io) installed for your user:
+
+```sh
+$ gem install --user-install bundler
+```
+
+## Install Jekyll
+
+Navigate to a project.
+
+Specify the version in the `Gemfile`. 
+
+For example:
 
 ```ruby
 gem 'jekyll', "~> 4.0.0"
@@ -14,7 +26,7 @@ Then install.
 $ bundle install
 ```
 
-When installing that, you'll see this message:
+When installing Jekyll 4, you'll see this message.
 
 ```
 Jekyll 4.0 comes with some major changes, notably:
@@ -31,3 +43,5 @@ Jekyll 4.0 comes with some major changes, notably:
     output a warning and gracefully assign their values to the newer counterparts
     internally.
 ```
+
+For more details on differences from Jekyll 3, see the [Upgrading from 3.x to 4.x](https://jekyllrb.com/docs/upgrading/3-to-4/) tutorial on the Jekyll docs.
