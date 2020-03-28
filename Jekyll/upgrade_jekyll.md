@@ -1,12 +1,15 @@
-# How to upgrade Jekyll
+# Use latest Jekyll
+> How to install Jekyll 4 in a project - not locally.
 
-[Upgrading from 3.x to 4.x](https://jekyllrb.com/docs/upgrading/3-to-4/) tutorial on the Jekyll docs.
+See the [Upgrading from 3.x to 4.x](https://jekyllrb.com/docs/upgrading/3-to-4/) tutorial on the Jekyll docs.
 
-One way to use the latest Jekyll is to specify in the `Gemfile` for the project.
+Specify the version in the `Gemfile` of the project.
 
 ```ruby
 gem 'jekyll', "~> 4.0.0"
 ```
+
+Then install.
 
 ```sh
 $ bundle install
