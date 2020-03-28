@@ -1,6 +1,6 @@
 # Install Jekyll for a project
 
-## Install Bundler
+## 1. Install Bundler
 
 Ensure you have [Bundler](https://bundler.io) installed for your user:
 
@@ -8,11 +8,11 @@ Ensure you have [Bundler](https://bundler.io) installed for your user:
 $ gem install --user-install bundler
 ```
 
-## Install Jekyll
+## 2. Install Jekyll
 
 Navigate to a project.
 
-Specify the version in the `Gemfile`. 
+Specify the version in a `Gemfile`. 
 
 For example:
 
@@ -23,6 +23,10 @@ gem 'jekyll', "~> 4.0.0"
 Then install.
 
 ```sh
+$ # First time:
+$ bundle install --path vendor/bundle
+
+$ # On subsequent installs:
 $ bundle install
 ```
 
@@ -45,3 +49,12 @@ Jekyll 4.0 comes with some major changes, notably:
 ```
 
 For more details on differences from Jekyll 3, see the [Upgrading from 3.x to 4.x](https://jekyllrb.com/docs/upgrading/3-to-4/) tutorial on the Jekyll docs.
+
+
+## 3. Run
+
+Start a server using the project-level Jekyll
+
+```sh
+$ bundle exec jekyll serve
+```
