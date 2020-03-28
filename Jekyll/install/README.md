@@ -1,4 +1,4 @@
-# Install Jejyll
+# Install Jekyll
 
 
 ### 1. Install Ruby
