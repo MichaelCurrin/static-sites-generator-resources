@@ -68,13 +68,16 @@ The approach is to setup and run a repo which does not use a Gemfile to specify 
 
 #### System dependencies
 
-1. Follow instructions under [Jekyll Guides](https://jekyllrb.com/docs/installation/#guides) for your OS to install or update `ruby`. This will make the `gem` command available.
-2. Install the Jekyll gem at the user level. By default, this will install to the `~/.gems` directory.
+1. Install or update **Ruby** globally.
+    - Go the [Installation Guides](https://jekyllrb.com/docs/installation/#guides) section of the Jekyll docs and follow the guide relevant for your OS.
+    - For macOS _Catalina_ specifically, see this [guide](https://github.com/MichaelCurrin/learn-to-code/blob/master/Scripting%20languages/Ruby/README.md#macos)).
+    - Once _Ruby_ is installed, you can run the `ruby` and `gem` commands.
+2. Install the **Jekyll** gem at the user level. By default, this will install to the `~/.gems` directory.
     ```bash
     $ gem install --user-install jekyll
     ```
 
-You can run the gem from anywhere now.
+You can run the Jekyll _gem_ from anywhere now.
 
 ```bash
 $ type jekyll
@@ -109,8 +112,10 @@ The approach is to setup and run a repo which uses a Gemfile to specify project 
 
 #### System dependencies
 
-1. Install **Ruby** so you can get the `ruby` and `gem` commands available.
-    - To do this, follow the instructions under [Jekyll Guides](https://jekyllrb.com/docs/installation/#guides) for your OS to install or update `ruby` (for macOS Catalina, see this [guide](https://github.com/MichaelCurrin/learn-to-code/blob/master/Scripting%20languages/Ruby/README.md#macos)).
+1. Install or update **Ruby** globally.
+    - Go the [Installation Guides](https://jekyllrb.com/docs/installation/#guides) section of the Jekyll docs and follow the guide relevant for your OS.
+    - For macOS _Catalina_ specifically, see this [guide](https://github.com/MichaelCurrin/learn-to-code/blob/master/Scripting%20languages/Ruby/README.md#macos)).
+    - Once _Ruby_ is installed, you can run the `ruby` and `gem` commands.
 2. Install the **Jekyll** gem at the _user_ level.
     - By default, this will install to the `~/.gems` directory. Note, this step is not needed for projects which install Jekyll as a project dependency.
     - Command:
