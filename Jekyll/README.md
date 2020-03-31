@@ -6,6 +6,7 @@
 
 - [Jekyll official site](http://jekyllrb.com/)
 - [Jekyll forums](http://talk.jekyllrb.com/)
+    - [MichaelCurrin](https://talk.jekyllrb.com/u/MichaelCurrin/activity) - my profile on the forum
 - [Jekyll gitter](https://gitter.im/jekyll/jekyll)
 
 ### Tutorials
