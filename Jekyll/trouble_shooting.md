@@ -3,7 +3,7 @@
 
 ## Bundler version mismatch
 
-When upgrading your Ruby version (such as with macOS Catalina update) and reinstalling Bundler, your projects can stop working. Especially if you use a lock file, but you've since installed with a different version of Bundler before which can't be found.
+When upgrading your Ruby version (such as with macOS Catalina update) and changing Bundler version, your projects can stop working. Here is how to deal with that.
 
 ### Error
 
@@ -12,6 +12,7 @@ When running:
 ```sh
 bundle install
 ```
+
 Sample error:
 
 ```
@@ -21,10 +22,18 @@ To update to the latest version installed on your system, run `bundle update --b
 To install the missing version, run `gem install bundler:2.0.1`
 ```
 
+This happened because the lock file indicates:
+
+```
+BUNDLED WITH
+   2.0.1
+```
+
+While `1.17.2` (old) is the global version.
+
 ### Solution
 
-
-1. Delete gems installed against the older Ruby version.
+1. Delete gems installed against the older Ruby version. This may not actually be needed but is good for a clean install.
     ```sh
     rm -rf vendor/bundle/ruby/
     ```
