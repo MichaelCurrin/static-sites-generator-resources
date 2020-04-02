@@ -11,11 +11,19 @@
 
 ### Tutorials
 
-- CloudCannon
-    - [Tutorials](https://learn.cloudcannon.com/tutorials)
-        - [Google Maps](https://learn.cloudcannon.com/jekyll/google-maps/)
-    - [Cheatsheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/)
+- [Tutorials](https://learn.cloudcannon.com/tutorials) on CloudCannon
+    - [Google Maps](https://learn.cloudcannon.com/jekyll/google-maps/)
+- [Cheatsheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/) on CloudCannon
  
 ### Templates
 
+Start your project off with a template.
+
 - [Jekyll Templates](https://learn.cloudcannon.com/jekyll-templates/) on CloudCannon
+
+
+### Themes
+
+Give your project a new look and feel using a theme made for Jekyll.
+
+- [ekyllthemes.org](http://jekyllthemes.org/)
