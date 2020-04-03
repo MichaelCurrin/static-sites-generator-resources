@@ -16,7 +16,8 @@
 - [Tutorials](https://learn.cloudcannon.com/tutorials) on CloudCannon
     - [Google Maps](https://learn.cloudcannon.com/jekyll/google-maps/)
     - [Frontmatter](https://learn.cloudcannon.com/jekyll/introduction-to-jekyll-front-matter/), including how to iterate over YAML data and render it
-
+- Jekyll site tutorials
+    - [Frontmatter](https://jekyllrb.com/docs/front-matter/)
 
 ### Cheatsheets
 
