@@ -18,10 +18,13 @@
 
 ### Shopify's Liquid docs
 
-- [Basic introduction](https://shopify.github.io/liquid/basics/introduction/)
-- [Data types](https://help.shopify.com/en/themes/liquid/basics/types)
-- [Tags](https://help.shopify.com/en/themes/liquid/tags)
-- [Filters](https://help.shopify.com/en/themes/liquid/filters)
+- shopify.github.io
+    - [Filters](https://shopify.github.io/liquid/filters/abs/)
+    - [Basic introduction](https://shopify.github.io/liquid/basics/introduction/)
+- shopify.dev
+    - [Data types](https://shopify.dev/docs/liquid/reference/basics/types)
+    - [Tags](https://shopify.dev/docs/liquid/reference/tags)
+    - [Filters](https://shopify.dev/docs/liquid/reference/filters)
 
 
 ### Official Jekyll docs
