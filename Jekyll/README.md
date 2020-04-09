@@ -36,3 +36,9 @@ Start your project off with a template.
 Give your project a new look and feel using a theme made for Jekyll.
 
 - [jekyllthemes.org](http://jekyllthemes.org/)
+
+## Installation 
+
+Follow the guide for your operating system to install Ruby and Jekyll. You can also use Bundler to install the Jekyll gem on a project level. 
+
+- https://jekyllrb.com/docs/installation/
