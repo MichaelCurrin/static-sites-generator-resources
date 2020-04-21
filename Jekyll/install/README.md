@@ -3,7 +3,9 @@
 
 ### 1. Install Ruby
 
-Install or upgrade [Ruby](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/Ruby/README.md#install-and-upgrade). Do this for your user - you might not even be able to change the system Ruby or its gems, such as on macOS Catalina.
+Install or upgrade [Ruby](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/Ruby/README.md#install-and-upgrade). 
+
+Do this for your user to avoid using `sudo`. You might not even be able to change the system Ruby or its gems, such as on macOS Catalina.
 
 
 ### 2. Update shell config
@@ -27,6 +29,6 @@ It is not recommended to install Jekyll globally as that is available for all us
 Follow one of the approaches below:
 
 - [Install for your user](jekyll_for_user.md) 
-    - If you want use use Jekyll across projects and avoid using `sudo`
+    - If you want use use Jekyll across projects and avoid using `sudo`.
 - [Install for a project](jekyll_for_project.md) 
     - If you want to install a per-project Jekyll from a Gemfile, using Bundler.
