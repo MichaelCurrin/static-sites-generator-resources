@@ -2,6 +2,8 @@
 
 When setting up a project for Netlify, values are configured. Rather than setting them in Netlify itself, I prefer to set use a config file.
 
+See this Netlify article on their use of [Bundler](https://community.netlify.com/t/builds-bundler-version-from-gemfile-lock-now-installed-and-used/5561).
+
 ## Resources
 
 - [File-based configuration](https://docs.netlify.com/configure-builds/file-based-configuration/) - from the Netlify docs.
