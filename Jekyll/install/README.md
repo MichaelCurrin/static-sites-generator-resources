@@ -3,7 +3,7 @@
 
 ### 1. Install Ruby
 
-Install or upgrade [Ruby](https://github.com/MichaelCurrin/learn-to-code/Scripting%20languages/Ruby/README.md).
+Install or upgrade [Ruby](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/Ruby/README.md#install-and-upgrade).
 
 
 ### 2. Update shell config
