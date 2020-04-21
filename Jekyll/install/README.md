@@ -3,12 +3,12 @@
 
 ### 1. Install Ruby
 
-Install or upgrade [Ruby](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/Ruby/README.md#install-and-upgrade).
+Install or upgrade [Ruby](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/Ruby/README.md#install-and-upgrade). Do this for your user - you might not even be able to change the system Ruby or its gems, such as on macOS Catalina.
 
 
 ### 2. Update shell config
 
-Update your shell config file (`.bashrc` or `.zshrc`), such that the `~/gems/` directory is accessible for your user from anywhere.
+Update your shell config file (`.bashrc` or `.zshrc`), such that your user's `~/.gems/` directory is accessible for your user from anywhere.
 
 For example:
 
