@@ -26,5 +26,7 @@ It is not recommended to install Jekyll globally as that is available for all us
 
 Follow one of the approaches below:
 
-- [Install for a user](jekyll_for_user.md)
-- [Install for a project](jekyll_for_project.md)
+- [Install for your user](jekyll_for_user.md) 
+    - If you want use use Jekyll across projects and avoid using `sudo`
+- [Install for a project](jekyll_for_project.md) 
+    - If you want to install a per-project Jekyll from a Gemfile, using Bundler.
