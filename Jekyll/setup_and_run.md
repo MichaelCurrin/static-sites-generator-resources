@@ -145,10 +145,11 @@ jekyll is /.../.gem/ruby/2.3.0/bin/jekyll
 
 How to install project-specific gems, as set in the Gemfile.
 
-By default, `bundle` will install gems in your gem directory (`~/.gems`). Rather ensure you isolate your gems environment for this project a custom location. Below is the one recommended by `bundle`.
+By default, `bundle` will install gems in your gem directory (`~/.gems`). Rather ensure you isolate your gems environment for this project a custom location. Below is the one recommended for `bundle`.
 
 ```bash
-$ bundle install --path vendor/bundle
+$ bundle config path vendor/bundle
+$ bundle install
 ```
 
 That will create the following:
@@ -156,6 +157,7 @@ That will create the following:
 - `.bundle/config` - Short bundle config file. This can be versioned if you like.
 - `vendor/bundle/` - A directory containing installed project gems. This directory should be added to your ignore file to avoid versioning it.
 
+_Note: the alternative `install --path vendor/bundle` syntax is being deprecated in case you come across that._
 
 ##### Maintenance
 
