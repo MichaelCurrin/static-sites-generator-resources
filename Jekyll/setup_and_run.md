@@ -70,7 +70,7 @@ The approach is to setup and run a repo which does not use a Gemfile to specify 
 
 1. Install or update **Ruby** globally.
     - Go the [Installation Guides](https://jekyllrb.com/docs/installation/#guides) section of the Jekyll docs and follow the guide relevant for your OS.
-    - For macOS _Catalina_ specifically, see this [guide](https://github.com/MichaelCurrin/learn-to-code/blob/master/Scripting%20languages/Ruby/README.md#macos) that I wrote.
+    - For macOS _Catalina_ specifically, see this [guide](https://github.com/MichaelCurrin/learn-to-code/blob/master/en/topics/scripting_languages/Ruby/README.md#macos) that I wrote.
     - Once _Ruby_ is installed, you can run the `ruby` and `gem` commands.
 2. Install the **Jekyll** gem at the user level. By default, this will install to the `~/.gems` directory.
     ```bash
