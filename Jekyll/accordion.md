@@ -10,14 +10,14 @@ Use the `details` and `summary` tags - these work on Github markdown, Jekyll, Do
 
 ```html
 <details>
-<summary>My title</summary>
+<summary><b>My title</b></summary>
 
 My expanded details
 </details>
 ```
 
 <details>
-<summary>My title</summary>
+<summary><b>My title</summary>
 
 My expanded details
 </details>
@@ -30,7 +30,7 @@ Create an includes file and use it on a page.
 - `_includes/details.html` - or whatever name you like.
     ```html
     <details>
-    <summary>{{ include.title }}</summary>
+    <summary><b>{{ include.title }}</b></summary>
 
     {{ include.description }}
     </details>
