@@ -23,6 +23,38 @@ My expanded details
 </details>
 
 
+## Nesting
+
+
+```html
+<details>
+<summary><b>Outer title</b></summary>
+
+Outer details
+    
+    <details>
+    <summary><b>Inner title</b></summary>
+
+    Inner details
+
+    </details>    
+</details>
+```
+
+<details>
+<summary><b>Outer title</b></summary>
+
+Outer details
+    
+    <details>
+    <summary><b>Inner title</b></summary>
+
+    Inner details
+
+    </details>    
+</details>
+
+
 ### Jekyll templating use
 
 Create an includes file and use it on a page.
