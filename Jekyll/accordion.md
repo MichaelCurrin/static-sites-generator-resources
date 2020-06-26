@@ -17,7 +17,7 @@ My expanded details
 ```
 
 <details>
-<summary><b>My title</summary>
+<summary><b>My title</b></summary>
 
 My expanded details
 </details>
