@@ -1,7 +1,7 @@
 # Accordion
 
 
-## Details tag
+## Details HTML tag
 
 Use the `details` and `summary` tags - these work on Github markdown, Jekyll, Docsify and others. No CSS or JS need.
 
@@ -55,24 +55,22 @@ Create an includes file and use it on a page.
 See also [Creating an Accordion Plugin for Jekyll - No TV and No Beer 6](http://mikelui.io/2018/07/22/jekyll-nested-blocks.html) - this is a heavier approach which involves writing two Ruby plugins.
 
 
-## CSS approach
+## Custom CSS approach
 
-Here is an approach which does not use Jekyll but the HTML can be adapted by using `for` loops.
+This is similar to using the [Details tag](#details-tag) but uses HTML tags with custom CSS - which is a lot heavier but allows more customization. This approach can be used with an includes files too.
 
-- [Implementing A Pure CSS Collapsible](https://alligator.io/css/collapsible/)
+From [Implementing A Pure CSS Collapsible](https://alligator.io/css/collapsible/)
 
 
-- `index.html`
+- `index.html` - repeat this for multiple items.
     ```html
     <div class="wrap-collabsible">
       <input id="collapsible" class="toggle" type="checkbox">
-      <label for="collapsible" class="lbl-toggle">More Info</label>
+      <label for="collapsible" class="lbl-toggle">Title</label>
       <div class="collapsible-content">
         <div class="content-inner">
           <p>
-            QUnit is by calling one of the object that are embedded in JavaScript, and faster JavaScript program could also used with
-            its elegant, well documented, and functional programming using JS, HTML pages Modernizr is a popular browsers without
-            plug-ins. Test-Driven Development.
+            Description
           </p>
         </div>
       </div>
