@@ -14,7 +14,6 @@ Use the `details` and `summary` tags - these work on Github markdown, Jekyll, Do
 ```html
 <details>
 <summary><b>My title</b></summary>
-
 My expanded details
 </details>
 ```
@@ -23,7 +22,6 @@ My expanded details
 
 <details>
 <summary><b>My title</b></summary>
-
 My expanded details
 </details>
 
@@ -56,19 +54,17 @@ Outer details
     </details>
 </details>
 
-Just be sure to not use indenting for the inner level (or just make sure there are no empty lines), otherwise your indented HTML becomes code blocks.
-
+Just be sure to not use indenting for the inner item, or just make sure there are no empty lines as above. Otherwise your indented HTML becomes markdown code blocks.
 
 
 ### Jekyll templating use
 
 Create an includes file and use it on a page.
 
-- `_includes/details.html` - or whatever name you like.
+- `_includes/accordion.html` - or whatever name you like.
     ```html
     <details>
     <summary><b>{{ include.title }}</b></summary>
-
     {{ include.description }}
     </details>
     ```
@@ -80,7 +76,7 @@ Create an includes file and use it on a page.
 
     # Accordion test
 
-    {% include details.html
+    {% include accordion.html
         title = "This is my title"
         description = "This is my description"
     %}
@@ -99,19 +95,32 @@ This is similar to using the [Details tag](#details-tag) but uses HTML tags with
 From [Implementing A Pure CSS Collapsible](https://alligator.io/css/collapsible/)
 
 
-- `index.html` - repeat this for multiple items.
+- `accordion.html`
     ```html
-    <div class="wrap-collabsible">
-      <input id="collapsible" class="toggle" type="checkbox">
-      <label for="collapsible" class="lbl-toggle">Title</label>
-      <div class="collapsible-content">
-        <div class="content-inner">
-          <p>
-            Description
-          </p>
+    <div class="wrap-collapsible">
+        <input id="collapsible" class="toggle" type="checkbox">
+        <label for="collapsible" class="lbl-toggle">{{ include.title }}</label>
+        <div class="collapsible-content">
+            <div class="content-inner">
+                <p>
+                {{ include.description }}
+                </p>
+            </div>
         </div>
-      </div>
     </div>
+    ```
+- `index.md`
+    ```markdown
+    ---
+    layout: null
+    ---
+
+    # Accordion test
+
+    {% include accordion.html
+        title = "This is my title"
+        description = "This is my description"
+    %}
     ```
 - `styles.css`
     ```css
