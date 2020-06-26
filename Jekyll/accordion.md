@@ -37,16 +37,11 @@ You can nest accordion items.
 ```html
 <details>
 <summary><b>Outer title</b></summary>
-
 Outer details
-    
 <details>
-<summary><b>Inner title</b></summary>
-
-Inner details
-
-</details>
-    
+    <summary><b>Inner title</b></summary>
+    Inner details
+    </details>
 </details>
 ```
 
@@ -54,16 +49,11 @@ Inner details
 
 <details>
 <summary><b>Outer title</b></summary>
-
 Outer details
-    
-<details>
-<summary><b>Inner title</b></summary>
-
-Inner details
-
-</details>
-
+    <details>
+    <summary><b>Inner title</b></summary>
+    Inner details
+    </details>
 </details>
 
 Just be sure to not use indenting for the inner level (or just make sure there are no empty lines), otherwise your indented HTML becomes code blocks.
