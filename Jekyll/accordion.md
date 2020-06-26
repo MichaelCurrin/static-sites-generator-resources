@@ -8,6 +8,9 @@ Use the `details` and `summary` tags - these work on Github markdown, Jekyll, Do
 
 ### Simple use
 
+
+**Code**
+
 ```html
 <details>
 <summary><b>My title</b></summary>
@@ -15,6 +18,8 @@ Use the `details` and `summary` tags - these work on Github markdown, Jekyll, Do
 My expanded details
 </details>
 ```
+
+**Result**
 
 <details>
 <summary><b>My title</b></summary>
@@ -25,6 +30,9 @@ My expanded details
 
 ## Nesting
 
+You can nest accordion items. 
+
+**Code**
 
 ```html
 <details>
@@ -32,27 +40,34 @@ My expanded details
 
 Outer details
     
-    <details>
-    <summary><b>Inner title</b></summary>
+<details>
+<summary><b>Inner title</b></summary>
 
-    Inner details
+Inner details
 
-    </details>    
+</details>
+    
 </details>
 ```
+
+**Result**
 
 <details>
 <summary><b>Outer title</b></summary>
 
 Outer details
     
-    <details>
-    <summary><b>Inner title</b></summary>
+<details>
+<summary><b>Inner title</b></summary>
 
-    Inner details
+Inner details
 
-    </details>    
 </details>
+
+</details>
+
+Just be sure to not use indenting for the inner level (or just make sure there are no empty lines), otherwise your indented HTML becomes code blocks.
+
 
 
 ### Jekyll templating use
