@@ -28,7 +28,7 @@ My expanded details
 
 ## Nesting
 
-You can nest accordion items. 
+You can nest accordion items.
 
 **Code**
 
@@ -55,6 +55,8 @@ Outer details
 </details>
 
 Just be sure to not use indenting for the inner item, or just make sure there are no empty lines as above. Otherwise your indented HTML becomes markdown code blocks.
+
+If you need to style the inner and outer items differently, you can add divs or classes or a CSS selector which only applies to details inside details.
 
 
 ### Jekyll templating use
