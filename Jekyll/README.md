@@ -26,10 +26,11 @@ See [Jekyll cheatsheet](https://michaelcurrin.github.io/dev-cheatsheets/cheatshe
 
 ### Templates
 
-Start your project off with a template.
+Start your project off with a template project.
 
-- [Jekyll Templates](https://learn.cloudcannon.com/jekyll-templates/) on CloudCannon
+- [Jekyll Templates](https://learn.cloudcannon.com/jekyll-templates/) on CloudCannon.
 
+Check out my [Jekyll Recipes](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/jekyll/).
 
 ### Themes
 
