@@ -30,6 +30,8 @@ Start your project off with a template project.
 
 - [Jekyll Templates](https://learn.cloudcannon.com/jekyll-templates/) on CloudCannon.
 
+If you search [my repos](https://github.com/MichaelCurrin?tab=repositories&q=Jekyll&type=&language=) for Jekyll and look for the template label, you'll see some projects you can use.
+
 Check out my [Jekyll Recipes](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/jekyll/).
 
 ### Themes
