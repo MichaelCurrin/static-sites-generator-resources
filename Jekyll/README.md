@@ -21,7 +21,7 @@
 
 ### Cheatsheets
 
-See [Jekyll cheatsheet](https://github.com/MichaelCurrin/cheatsheets/tree/master/cheatsheets/jekyll) in _MichaelCurrin/cheatsheets_ repo.
+See [Jekyll cheatsheet](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/jekyll/) in _MichaelCurrin/dev-cheatsheets_ repo.
 
 
 ### Templates
