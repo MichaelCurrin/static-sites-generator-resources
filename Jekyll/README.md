@@ -10,7 +10,6 @@
     - [MichaelCurrin](https://talk.jekyllrb.com/u/MichaelCurrin/activity) - my profile on the forum
 - [Jekyll gitter](https://gitter.im/jekyll/jekyll)
 
-
 ### Tutorials
 
 - [Tutorials](https://learn.cloudcannon.com/tutorials) on CloudCannon
@@ -18,6 +17,7 @@
     - [Frontmatter](https://learn.cloudcannon.com/jekyll/introduction-to-jekyll-front-matter/), including how to iterate over YAML data and render it
 - Jekyll site tutorials
     - [Frontmatter](https://jekyllrb.com/docs/front-matter/)
+- [GitHub Pages Starter Pack resources](https://web-work.tools/jamstack/github-pages-starter-pack/) post the Web Work blog.
 
 ### Cheatsheets
 
