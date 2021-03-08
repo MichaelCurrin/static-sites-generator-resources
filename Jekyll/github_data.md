@@ -1,4 +1,4 @@
-# Github data
+# GitHub data
 
 When building a static site, Github API data for your profile and repos can be added using this plugin:
 
