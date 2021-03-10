@@ -4,11 +4,18 @@
 
 This project is intended for someone who wants to learn about building a static website using Jekyll or Hugo. Instructions are are for Unix-like systems (Linux or macOS).
 
+_Note: This project is not maintained - see projects listed below_
+
+## Related projects
+
+- [Jekyll cheatsheets](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/jekyll/)
+- [Jekyll recipes](https://michaelcurrin.github.io/code-cookbook/recipes/jekyll/)
+
 
 ## Project contents
 
-- [Hugo](Hugo)
-- [Jekyll](Jekyll)
+- [Hugo](Hugo/)
+- [Jekyll](Jekyll/)
 
 
 ## Usage
